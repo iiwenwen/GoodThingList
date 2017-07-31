@@ -4,14 +4,21 @@
 
 
 - 卡片
-	+ [索引卡_淘宝搜索](https://s.taobao.com/search?q=%E7%B4%A2%E5%BC%95%E5%8D%A1)
-- PHILIPS 飞利浦 Sonicare HX6730
-	+ [HX6730_淘宝搜索](https://s.taobao.com/search?q=HX6730)
-	- 京东约 350 元购入
-- INCASE 电脑包
-	- [INCASE City (Compact) 15/17寸 苹果 Macbook Pro 电脑包 双肩包-tmall.com天猫](https://world.tmall.com/item/533729815753.htm?id=533729815753&rn=599509329b80f7586bfd25909673e3e5&abbucket=0)
-	- 2015 年 11 月，350 元海淘购入
-* Osprey kestrel 小鹰 48L 蓝色
-	- [小鹰 48_淘宝搜索](https://s.taobao.com/search?q=%E5%B0%8F%E9%B9%B0+48&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20161010&ie=utf8)
-	-  2016 年 10 月 5 日闲鱼 500 购入
-
+	+ [索引卡_淘宝搜索](https://s.taobao.com/search?q=%E6%B3%B0%E6%99%AE%E5%B0%94%E7%9C%BC%E7%BD%A9&imgfile=&commend=all&ssid=s5-e&search_type=item&sourceId=tb.index&spm=a21bo.50862.201856-taobao-item.1&ie=utf8&initiative_id=tbindexz_20170730)
+	+ 卡片的作用在于便捷和一次只做一件事
+* 泰普尔眼罩
+	+ [泰普尔眼罩_淘宝搜索](https://s.taobao.com/search?q=HX6730)
+ 	- 2017 年 7 月 23 日咸鱼 160 购入，全新成色估计为之前的库存
+	- 效果不错，基本上能做到完全避光，里面的材料戴起来也比较舒适。
+- 舒适水次元5剃须刀 1 刀架 4 刀头
+	- [舒适水次元5剃须刀_淘宝搜索](https://s.taobao.com/search?q=%E8%88%92%E9%80%82%E6%B0%B4%E6%AC%A1%E5%85%835&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170730&ie=utf8)
+	- 对比吉列的锋速 5 来说，两个字来形容「舒适」自带的芦荟膏在刮的时候会自动涂在脸上，很顺滑。
+	- 2017 年 7 月 23 日 138 购入
+* 胡刷气泡碗剃须膏
+	- [胡刷_淘宝搜索](https://s.taobao.com/search?q=%E8%83%A1%E5%88%B7&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20170730&ie=utf8)
+	-  2017 年 7 月 23 日 58 购入
+	- 主要目的体验一下帝皇式剃须，感觉还不错，起的泡沫比较细腻，胡刷清洁起来更方便，盒罐装的泡沫比起来不好说需要好好体检。
+- 尼康 D7100 + 尼克尔 50mm 定焦
+  - [尼康 D7100 50 定套装_京东搜索](https://search.jd.com/Search?keyword=%E5%B0%BC%E5%BA%B7d7100&enc=utf-8&suggest=6.def.0.T13&wq=%E5%B0%BC%E5%BA%B7&pvid=3fbbf0808eb14c3584e0e16c94928116)
+  * 2016 年 12 月 12 日 4800 购入
+  - 到核电后就基本没有用了，自我感觉良好，可惜里面进灰了。。。
