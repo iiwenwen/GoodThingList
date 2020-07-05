@@ -14,7 +14,11 @@ GoodThings 就是好物，在这里，我会在此陆续奉上好用之物，附
 
 假如它不能满足以上的三个条件，Bruce Sterling的建议是，毫不犹豫地丟弃它。
 
+
+![VR2C24.jpg](https://s2.ax1x.com/2019/06/12/VR2C24.jpg)
+
 在挖掘好物清单时，建议聆听 [极致音乐清单](http://www.xiami.com/search/album/?spm=a1z1s.3521865.23309985.3.eDI0b6&key=The+Essential+Masterpieces)
+
 
 
 
@@ -36,12 +40,13 @@ GoodThings 就是好物，在这里，我会在此陆续奉上好用之物，附
 
 * [好·Mac 应用清单](https://github.com/cnfeat/GoodThingList/blob/master/GoodMacAppList.md)
 * [好·Mac使用技巧清单](https://github.com/cnfeat/GoodThingList/blob/master/GoodMacSkillList.md)
-* [Macbook 扩容解决方案](https://github.com/cnfeat/GoodThingList/blob/master/MacbookProSSDUpdate.md)
 * [好·插件清单](https://github.com/cnfeat/GoodThingList/blob/master/GoodChromePluginList.md)
 * [好·iPhone 设置技巧](https://github.com/cnfeat/GoodThingList/blob/master/MyiPhoneDestopSetting.md)
 
 
 
-
 ## ChangeLog
+- 20200705 重新 fork
 - 2018-5-8 重新fork修改属于自己的好物清单
+
+

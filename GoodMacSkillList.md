@@ -25,11 +25,6 @@ Dock 显示隐藏缓慢的原因，是因为 OS X 隐藏和显示 Dock 的动画
 * 6 松开这些按键。 
 * 重置 NVRAM 后，您可能需要重新配置扬声器音量、屏幕分辨率、启动磁盘选择和时区信息设置。
 
-## 七牛云图床
-
-- [如何使用七牛云做为图床？ - 读立写生](http://cnfeat.com/blog/2015/11/30/cli-qiniu/)
-- [使用Dropzone和七牛云存储来优化博客图床 | 闫肃的博客](http://yansu.org/2015/01/10/use-dropzone-and-qiniu-to-store-blog-images.html)
-- [MWeb 1.9.3 发布！图床支持七牛、修正发布到 Wordpress https 问题、中文版不能发布到 Medium 问题等 - MWeb](http://zh.mweb.im/mweb-1.9.3-release.html)
 
 ## QuickLook
 
@@ -41,6 +36,19 @@ Dock 显示隐藏缓慢的原因，是因为 OS X 隐藏和显示 Dock 的动画
 ## Mac/iOS 网站
 
 - [少数派 - 高质量应用推荐媒体](http://sspai.com/)
+
+
+
+## macOS Sierra安装软件提示文件已损坏问题解决
+
+macOS Sierra设置说明
+若已安装了最新系统 macOS Sierra 则有可能出现某些安装包已损坏、显示未激活、打开崩溃等的提示！！原因是因为新系统屏蔽了任何来源的设置，需要大家打开“允许任何来源”方可安装
+步骤1：Spotlight搜索(快捷键：command+空格或右上角搜索的符号)：搜索“终端”
+步骤2：直接输入 sudo spctl --master-disable   回车
+步骤3：输入你的开机密码
+步骤4：回到系统偏好设置的“安全与隐私”，勾选“允许任何来源”
+
+
 
 
 
