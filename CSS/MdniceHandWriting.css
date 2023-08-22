@@ -1,3 +1,28 @@
+/* 
+# MdNice-HandWriting.css 说明 
+
+## 1
+本样式以格子纸张为背景，手写体，突出手写特点。
+ 
+## 2
+修改样式说明：
+
+加粗：
+- 字体粗细: 默认;
+- 下边框: 3px solid #4FC3F7;
+
+
+分割线：
+- 颜色：#4FC3F7;
+- 样式：双线阴影;
+
+脚注文字：
+- 字体颜色：#4FC3F7;
+
+## ChangeLog
+- 230822 创建
+*/
+
 /* 自定义样式，实时生效，浏览器实时缓存 */
 
 /* 全局属性
@@ -5,21 +30,25 @@
  * 全文字体 font-family: ptima-Regular;
  * 英文换行 word-break: break-all;
  */
-#nice {}
-
-
+#nice {
+    font-family: Hanzipen SC;
+    background-color: #f8f6f2;
+    background-size: 30px 30px;
+    background-image: linear-gradient(90deg, RGB(196, 212, 232) 1px, transparent 2px), linear-gradient(0, RGB(196, 212, 232) 1px, transparent 2px);
+    /* filter: blur(0.15px); */
+}
 
 /* 段落，下方未标注标签参数均同此处
- * 上边距 margin-top: 5px;
- * 下边距 margin-bottom: 5px;
- * 行高 line-height: 26px;
- * 词间距 word-spacing: 3px;
- * 字间距 letter-spacing: 3px;
- * 对齐 text-align: left;
- * 颜色 color: #3e3e3e;
- * 字体大小 font-size: 16px;
- * 首行缩进 text-indent: 2em;
- */
+     * 上边距 margin-top: 5px;
+     * 下边距 margin-bottom: 5px;
+     * 行高 line-height: 26px;
+     * 词间距 word-spacing: 3px;
+     * 字间距 letter-spacing: 3px;
+     * 对齐 text-align: left;
+     * 颜色 color: #3e3e3e;
+     * 字体大小 font-size: 16px;
+     * 首行缩进 text-indent: 2em;
+     */
 #nice p {
     font-size: 16px;
     line-height: 1.8em;
@@ -28,7 +57,7 @@
     padding-right: 0.7em;
     padding-left: 0.7em;
     letter-spacing: 0.03em !important;
-    font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
+    font-weight: bold;
 }
 
 /* 一级标题 */
@@ -44,11 +73,11 @@
 #nice h1 .suffix {}
 
 /* 二级标题
-字体颜色 蓝色
-
-*/
+    字体颜色 蓝色
+    
+    */
 #nice h2 {
-    color: #4FC3F7;
+    color: RGB(74, 97, 188);
     padding-right: 1.2em;
     padding-left: 1.2em;
     text-align: center;
@@ -63,8 +92,7 @@
 #nice h2 .prefix {}
 
 /* 二级标题后缀 */
-#nice h2 .suffix
-}
+#nice h2 .suffix {}
 
 /* 三级标题 */
 #nice h3 {
@@ -85,8 +113,8 @@
 #nice h3 .suffix {}
 
 /* 无序列表整体样式
- * list-style-type: square|circle|disc;
- */
+     * list-style-type: square|circle|disc;
+     */
 #nice ul {
     padding-left: 2em;
     line-height: 1.5em;
@@ -94,8 +122,8 @@
 }
 
 /* 有序列表整体样式
- * list-style-type: upper-roman|lower-greek|lower-alpha;
- */
+     * list-style-type: upper-roman|lower-greek|lower-alpha;
+     */
 #nice ol {
     padding-left: 2em;
     line-height: 1.5em;
@@ -103,13 +131,12 @@
 }
 
 /* 列表内容，不要设置li
- */
+     */
 #nice li section {
     margin: 0.5em 0;
     line-height: 1.5em;
     font-size: 16px;
     color: #3e3e3e;
-    font-family: -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
     letter-spacing: 0.05em !important;
 }
 
@@ -158,9 +185,9 @@ ol ol ol {
 }
 
 /* 引用
- * 左边缘颜色 border-left-color: black;
- * 背景色 background: gray;
- */
+     * 左边缘颜色 border-left-color: black;
+     * 背景色 background: gray;
+     */
 #nice blockquote {
     border-left: 4px solid #64B5F6;
     padding: 0 0.5em;
@@ -183,12 +210,11 @@ q::after {
 }
 
 /* 链接 
- * border-bottom: 1px solid #009688;
- */
+     * border-bottom: 1px solid #009688;
+     */
 #nice a {
-    color: #576b95;
-    border-bottom: none;
-    font-weight: normal;
+    color: #4FC3F7;
+    border-bottom: 1px solid #4FC3F7;
 }
 
 /* 加粗 */
@@ -208,18 +234,18 @@ q::after {
 #nice del {}
 
 /* 分隔线
- * 粗细、样式和颜色
- * border-top: 1px solid #3e3e3e;
- */
+     * 粗细、样式和颜色
+     * border-top: 1px solid #3e3e3e;
+     */
 #nice hr {
     border: 1px inset #4FC3F7;
 }
 
 /* 图片
- * 宽度 width: 80%;
- * 居中 margin: 0 auto;
- * 居左 margin: 0 0;
- */
+     * 宽度 width: 80%;
+     * 居中 margin: 0 auto;
+     * 居左 margin: 0 0;
+     */
 #nice img {}
 
 /* 行内代码 */
@@ -227,17 +253,17 @@ q::after {
 #nice li code {}
 
 /* 非微信代码块
- * 代码块不换行 display: -webkit-box !important;
- * 代码块换行 display: block;
- */
+     * 代码块不换行 display: -webkit-box !important;
+     * 代码块换行 display: block;
+     */
 #nice pre code {}
 
 /*
- * 表格内的单元格
- * 字体大小 font-size: 16px;
- * 边框 border: 1px solid #ccc;
- * 内边距 padding: 5px 10px;
- */
+     * 表格内的单元格
+     * 字体大小 font-size: 16px;
+     * 边框 border: 1px solid #ccc;
+     * 内边距 padding: 5px 10px;
+     */
 #nice table tr th,
 #nice table tr td {
     font-size: 1em;
@@ -246,10 +272,10 @@ q::after {
 }
 
 /* 
- * 某一列表格列宽控制
- * n 可以修改为具体数字，不修改时表示所有列
- * 最小列宽 min-width: 85px;
- */
+     * 某一列表格列宽控制
+     * n 可以修改为具体数字，不修改时表示所有列
+     * 最小列宽 min-width: 85px;
+     */
 #nice table tr th:nth-of-type(n),
 #nice table tr td:nth-of-type(n) {}
 
@@ -262,8 +288,8 @@ q::after {
 #nice .footnote-ref {}
 
 /* "参考资料"四个字 
- * 内容 content: "参考资料";
- */
+     * 内容 content: "参考资料";
+     */
 #nice .footnotes-sep:before {
     content: "参考";
 }
@@ -278,10 +304,10 @@ q::after {
 #nice .footnote-item p em {}
 
 /* 行间公式
- * 最大宽度 max-width: 300% !important;
- */
+     * 最大宽度 max-width: 300% !important;
+     */
 #nice .block-equation svg {}
 
 /* 行内公式
- */
+     */
 #nice .inline-equation svg {}

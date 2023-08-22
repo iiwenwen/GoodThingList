@@ -1,0 +1,426 @@
+/*说明:
+## 本CSS样式参考陈素封CSS修改而来。
+### 正文设置
+修改样式说明：
+
+加粗：
+- 字体粗细: 默认;
+- 下边框: 3px solid #4FC3F7;
+- 背景: 渐变色（10%透明，90% #4FC3F7;
+
+分割线：
+- 颜色：#4FC3F7;
+- 样式：双线阴影;
+
+脚注文字：
+- 字体颜色：#4FC3F7;
+
+### 参考链接：
+- [Markdown Here](http://markdown-here.com/get.html)
+- [你知道吗，在印象笔记里也能用 Markdown 写作 - Matrix](http://matrix.sspai.com/p/b768d1e0)
+### Changlog
+*/
+
+/* 设置代码块样式 */
+
+/* 字号、行高、颜色、内边距设置 */
+pre {
+    font-size: 1em;
+    /* 字号：14像素 */
+    line-height: 1.2em;
+    /* 行高：1.2倍 */
+    color: #3e3e3e;
+    /* 字体颜色：#3e3e3e */
+    padding-top: 0.5em;
+    /* 上内边距：0.5em */
+    padding-bottom: 0.5em;
+    /* 下内边距：0.5em */
+    padding-right: 0.7em;
+    /* 右内边距：0.7em */
+    padding-left: 0.7em;
+    /* 左内边距：0.7em */
+}
+
+/* 设置代码样式 */
+pre code {
+    white-space: pre;
+    /* 设置空白处理方式为保留原有空白 */
+    overflow: auto;
+    /* 设置溢出内容自动滚动 */
+}
+
+/* 一些元素的通用边距设置 */
+table,
+pre,
+dl,
+blockquote,
+q,
+ul,
+ol {
+    margin: 1.2em 0;
+    /* 上下边距：1.2em，左右边距：0 */
+}
+
+/* 有序列表、无序列表的样式设置 */
+ul,
+ol {
+    padding-left: 2em;
+    /* 左内边距：2em */
+    line-height: 1.5em;
+    /* 行高：1.5倍 */
+    padding-right: 2em;
+    /* 右内边距：2em */
+}
+
+/* 列表项的样式设置 */
+li {
+    margin: 0.5em 0;
+    /* 上下边距：0.5em，左右边距：0 */
+    line-height: 1.5em;
+    /* 行高：1.5倍 */
+    font-size: 16px;
+    /* 字号：16像素 */
+    color: #3e3e3e;
+    /* 字体颜色：#3e3e3e */
+    letter-spacing: 0.05em !important;
+    /* 字母间距：0.05em（重要） */
+}
+
+/* 嵌套列表的样式设置 */
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0;
+    /* 上下边距：0 */
+    padding-left: 1em;
+    /* 左内边距：1em */
+}
+
+/* 列表类型和字号设置 */
+ul ul,
+ul,
+ul {
+    list-style-type: square;
+    /* 无序列表项目符号为方块 */
+    font-size: 15px;
+    /* 字号：15像素 */
+}
+
+/* 有序列表项目符号设置为小写罗马数字 */
+ol ol,
+ul ol {
+    list-style-type: lower-roman;
+}
+
+/* 嵌套列表项目符号设置为小写字母 */
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+    list-style-type: lower-alpha;
+}
+
+/* 定义列表样式 */
+dl {
+    padding: 0;
+    /* 内边距：0 */
+    color: #3e3e3e;
+    /* 字体颜色：#3e3e3e */
+}
+
+/* 定义列表项标题样式 */
+dl dt {
+    font-size: 1em;
+    /* 字号：1em */
+    color: #3e3e3e;
+    /* 字体颜色：#3e3e3e */
+    font-style: italic;
+    /* 字体样式：斜体 */
+}
+
+/* 定义列表项描述样式 */
+dl dd {
+    margin: 0 0 1em;
+    /* 上边距：0，下边距：1em */
+    padding: 0 1em;
+    /* 内边距：上下0，左右1em */
+    color: #3e3e3e;
+    /* 字体颜色：#3e3e3e */
+}
+
+/* 引用样式 */
+blockquote,
+q {
+    border-left: 4px solid #64B5F6;
+    /* 左边框：4px实线边框，颜色：#64B5F6 */
+    padding: 0 0.5em;
+    /* 内边距：上下0，左右0.5em */
+    color: #888 !important;
+    /* 字体颜色：#888（重要） */
+    quotes: none !important;
+    /* 取消引用符号（重要） */
+    padding-right: 0.2em;
+    /* 右内边距：0.2em */
+    padding-left: 0.5em;
+    /* 左内边距：0.5em */
+    margin: 0.5em;
+    /* 上下边距：0.5em */
+}
+
+/* 清除引用符号伪元素 */
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: none;
+}
+
+/* 标题样式设置 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1.3em 0 1em;
+    /* 上边距：1.3em，下边距：1em，左右边距：0 */
+    padding: 0;
+    /* 内边距：0 */
+    font-weight: bold;
+    /* 字体粗细：加粗 */
+}
+
+h1 {
+    font-size: 24px;
+    /* 字号：24像素 */
+    min-height: 32px;
+    /* 最小高度：32像素 */
+    line-height: 30px;
+    /* 行高：30像素 */
+    border-bottom: solid 1px #000000;
+    /* 底部边框：实线1px，颜色：#000000 */
+    color: rgb(0, 0, 0);
+    /* 字体颜色：黑色 */
+    display: inline-block;
+    /* 行内块元素显示 */
+    border-bottom-width: 3px;
+    /* 底部边框宽度：3px */
+    border-bottom-style: solid;
+    /* 底部边框样式：实线 */
+    border-color: rgb(51, 51, 51);
+    /* 底部边框颜色：#333333 */
+    padding-top: 5px;
+    /* 上内边距：5像素 */
+    padding-right: 0.5em;
+    /* 右内边距：0.5em */
+    padding-left: 0.5em;
+    /* 左内边距：0.5em */
+    margin-bottom: -3px;
+    /* 下边距：-3像素 */
+    margin: 1em auto;
+    /* 上下边距：1em，左右边距：auto */
+    padding: 0.5em 0;
+    /* 上下内边距：0.5em */
+    text-align: center;
+    /* 文本对齐方式：居中 */
+    width: 95%;
+    /* 宽度：95% */
+    font-weight: normal;
+    /* 字体粗细：正常 */
+    display: flex;
+    /* 设置为弹性容器 */
+    flex-direction: column;
+    /* 设置主轴方向为垂直 */
+    justify-content: center;
+    /* 在容器的垂直方向上居中 */
+}
+
+
+/* 二级标题(h2)样式设置 */
+h2 {
+    font-size: 20px;
+    /* 字号：20像素 */
+    color: #4FC3F7;
+    /* 字体颜色：#4FC3F7 */
+    padding-right: 1.2em;
+    /* 右内边距：1.2em */
+    padding-left: 1.2em;
+    /* 左内边距：1.2em */
+    text-align: center !important;
+    /* 文本对齐方式：居中（重要） */
+}
+
+/* 三级标题(h3)样式设置 */
+h3 {
+    font-size: 18.5px;
+    /* 字号：18.5像素 */
+    color: #4FC3F7;
+    /* 字体颜色：#4FC3F7 */
+    padding-right: 0.5em;
+    /* 右内边距：0.5em */
+    padding-left: 0.5em;
+    /* 左内边距：0.5em */
+}
+
+/* 四级标题(h4)样式设置 */
+h4 {
+    font-size: 17px;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    border-bottom: 2px solid #f5ca02;
+    width: 120px
+}
+
+/* 五级标题(h5)样式设置 */
+h5 {
+    font-size: 14px;
+    /* 字号：14像素 */
+    color: #3e3e3e;
+    /* 字体颜色：#3e3e3e */
+    padding-right: 1.2em;
+    /* 右内边距：1.2em */
+    padding-left: 1.2em;
+    /* 左内边距：1.2em */
+    text-align: center;
+    /* 文本对齐方式：居中 */
+}
+
+/* 六级标题(h6)样式设置 */
+h6 {
+    font-size: 18px;
+    /* 字号：18像素 */
+    min-height: 32px;
+    /* 最小高度：32像素 */
+    line-height: 14px;
+    /* 行高：14像素 */
+    border-bottom: solid 1px rgb(0, 0, 0);
+    /* 底部边框：实线1px，颜色：黑色 */
+    color: #6375A9;
+    /* 字体颜色：#6375A9 */
+    display: inline-block;
+    /* 行内块元素显示 */
+    border-bottom-width: 3px;
+    /* 底部边框宽度：3px */
+    border-bottom-style: solid;
+    /* 底部边框样式：实线 */
+    border-color: #6375A9;
+    /* 底部边框颜色：#6375A9 */
+    padding-top: 5px;
+    /* 上内边距：5像素 */
+    padding-right: 0.5em;
+    /* 右内边距：0.5em */
+    padding-left: 0.5em;
+    /* 左内边距：0.5em */
+    margin-bottom: -3px;
+    /* 下边距：-3像素 */
+    margin: 1em auto;
+    /* 上下边距：1em，左右边距：auto */
+    padding: 0.5em 0;
+    /* 上下内边距：0.5em */
+    text-align: center;
+    /* 文本对齐方式：居中 */
+    width: 40%;
+    /* 宽度：40% */
+    font-weight: normal;
+    /* 字体粗细：正常 */
+    display: flex;
+    /* 设置为弹性容器 */
+    flex-direction: column;
+    /* 设置主轴方向为垂直 */
+    justify-content: center;
+    /* 在容器的垂直方向上居中 */
+    /*六经注我*/
+}
+
+/* 表格样式设置 */
+table {
+    padding: 0;
+    /* 内边距：0 */
+    border-collapse: collapse;
+    /* 折叠表格边框 */
+    border-spacing: 0;
+    /* 表格边框间隔：0 */
+    font-size: 1em;
+    /* 字号：1em */
+    font: inherit;
+    /* 继承父元素字体样式 */
+    border: 0;
+    /* 边框：0 */
+}
+
+/* 表格主体样式设置 */
+tbody {
+    margin: 0;
+    /* 外边距：0 */
+    padding: 0;
+    /* 内边距：0 */
+    border: 0;
+    /* 边框：0 */
+}
+
+/* 表格行样式设置 */
+table tr {
+    border: 0;
+    /* 边框：0 */
+    border-top: 1px solid #CCC;
+    /* 顶部边框：实线1px，颜色：#CCC */
+    background-color: white;
+    /* 背景颜色：白色 */
+    margin: 0;
+    /* 外边距：0 */
+    padding: 0;
+    /* 内边距：0 */
+}
+
+/* 表格奇数行背景颜色设置 */
+table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+    /* 背景颜色：#F8F8F8 */
+}
+
+/* 表格标题和单元格样式设置 */
+table tr th,
+table tr td {
+    font-size: 1em;
+    /* 字号：1em */
+    border: 1px solid #CCC;
+    /* 边框：实线1px，颜色：#CCC */
+    margin: 0;
+    /* 外边距：0 */
+    padding: 0.5em 1em;
+    /* 内边距：上下0.5em，左右1em */
+}
+
+/* 表格标题样式设置 */
+table tr th {
+    font-weight: bold;
+    /* 字体粗细：加粗 */
+    background-color: #F0F0F0;
+    /* 背景颜色：#F0F0F0 */
+}
+
+/* 段落样式设置 */
+p {
+    font-size: 16px;
+    /* 字号：16像素 */
+    line-height: 1.8em;
+    /* 行高：1.8倍 */
+    padding-top: 0.9em;
+    /* 上内边距：0.9em */
+    padding-bottom: 0.9em;
+    /* 下内边距：0.9em */
+    padding-right: 0.7em;
+    /* 右内边距：0.7em */
+    padding-left: 0.7em;
+    /* 左内边距：0.7em */
+    letter-spacing: 0.03em !important;
+    /* 字母间距：0.03em（重要） */
+    margin-bottom: 0em;
+}
+
+/* 强调样式设置 */
+strong {
+    font-weight: bold;
+    /* 字体粗细：加粗 */
+}
